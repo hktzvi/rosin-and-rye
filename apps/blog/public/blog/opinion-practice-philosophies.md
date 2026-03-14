@@ -6,9 +6,9 @@ author: "Reese Krome"
 date: "2026-03-14"
 ---
 
-Two practice philosophies dominate string instruction. The first, polish to perfection, demands technical precision and consistent execution. You repeat a passage until every note sits perfectly in tune, every bow stroke lands cleanly, and the interpretation becomes second nature.
+Two practice philosophies dominate string instruction. The first, polish to perfection, demands technical precision and consistent execution. You repeat a passage until the intonation is right, the phrasing matches the standard, and imitation becomes second nature.
 
-The second, overlearn to variation, prioritizes adaptability over exactness. You learn a tune deeply enough to play it differently each time, exploring ornaments, improvising cadenzas, and responding to the moment. The melody becomes a framework, not a fixed text.
+The second, overlearn to variation, prioritizes adaptability over exactness. You learn a tune deeply enough that variations come naturally, exploring ornaments, improvising breaks, and like learning to speak in conversation. The melody becomes a framework rather than a fixed text.
 
 Classical instruction leans hard on the first. Fiddle instruction leans hard on the second. And teachers in both camps often present these as incompatible destinations.
 
@@ -35,6 +35,8 @@ Teachers of a single style do not typically have this as their goal. Classical i
 If your goal is to master one style, follow the path that style prescribes. Polish to perfection for classical. Overlearn to variation for fiddle. The traditions have refined these methods over centuries, and they work.
 
 But if your goal is to carry qualities from one style into another, or to develop a voice that draws from multiple traditions, you need both approaches. You need the control that comes from polish. You need the fluency that comes from variation. Neither approach is optional. They are not alternatives. They are tools.
+
+For people coming from a classical background learning to play fiddle, you do need more training in overlearning to variation than anything else. The polish is already there. What is missing is the fluency, the ability to respond in the moment, the comfort with variation. The transition is not about acquiring new technique. It is about unlearning the assumption that there is one correct way to play a phrase.
 
 The thesis is simple. You need both of these approaches to accomplish a cross-style goal, not one or the other. The divide is pedagogical, not musical. Teachers specialize. Styles specialize. But music does not require you to choose between precision and adaptability any more than it requires you to choose between rhythm and melody.
 
