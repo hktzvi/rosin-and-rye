@@ -14,13 +14,11 @@ Classical instruction leans hard on the first. Fiddle instruction leans hard on 
 
 ## The Standard Argument
 
-Concert violinists polish to perfection because orchestral playing demands it. When fifty string players perform together, individual variation creates chaos. The music requires precision, not personality. Polish to perfection gets you there.
+Concert violinists polish to perfection because a piece demands it. Chopin's Nocturne in Eb Major is supposed to be this gentle flowing gradually tension growing then finally the tension resolves. Playing something as it was meant to be played by the person who wrote it. Polish to perfection gets you there.
 
-Fiddlers overlearn to variation because solo playing rewards it. Jam sessions thrive on spontaneity. Repeating a tune exactly the same way twice marks you as rigid, not skilled. Overlearning to variation gives you the freedom to respond to the room.
+Fiddlers overlearn to variation because it's about connecting to other musicians around the room or family members around the dinner table.  Like having a conversation. You construct sentences in response to someone else. You want to speak with your own vernacular. Overlearning to variation gives you your response. 
 
-This division makes sense if your goal aligns perfectly with one tradition. A student headed for an orchestra chair has no use for improvisation. A student learning old-time fiddle gains nothing from obsessing over intonation when the style values drive and rhythm over pitch accuracy.
-
-But this is a teaching artifact, not a musical truth.
+Committing to this division and  makes sense if your goal aligns perfectly with one tradition. A student competing for 1st chair shouldn't improvise measure 42. A student learning old-time shouldn't obsess over intonation. But this is a teaching artifact, not a musical truth.
 
 ## The Problem With the Divide
 
@@ -36,16 +34,10 @@ If your goal is to master one style, follow the path that style prescribes. Poli
 
 But if your goal is to carry qualities from one style into another, or to develop a voice that draws from multiple traditions, you need both approaches. You need the exact copy that comes from polish. You need the altered version that comes from variation. Neither approach is optional. They are not alternatives. They are tools.
 
-For people coming from a classical background learning to play fiddle, you do need more training in overlearning to variation than anything else. The ability to create an exact copy is already there. What is missing is the ability to create altered versions, to respond in the moment, the comfort with variation. The transition is not about acquiring new technique. It is about unlearning the assumption that there is one correct way to play a phrase.
+For people coming from a classical background learning to play fiddle, you do need more training in overlearning to variation than anything else. The ability to create an exact copy is already there. What is missing is the ability to create altered versions, to respond in the moment, the comfort with variation.
 
-The thesis is simple. You need both of these approaches to accomplish a cross-style goal, not one or the other. The divide is pedagogical, not musical. Teachers specialize. Styles specialize. But music does not require you to choose between precision and adaptability any more than it requires you to choose between rhythm and melody.
+The thesis is simple. You need both of these approaches to accomplish a cross-style goal, not one or the other. The divide is pedagogical, not musical. Music does not require you to choose between precision and adaptability any more than it requires you to choose between rhythm and melody.
 
-## In Practice
-
-What does this look like? You polish a phrase to perfection and then vary it. You drill intonation until it is automatic and then use that foundation to improvise with confidence. You learn a tune note for note until variations come naturally.
-
-The classical player who wants to bring spontaneity to their performance starts by mastering the notes and then loosens the grip. The fiddler who wants to bring precision to their playing starts by owning the feel and then refines the details. Neither path works without the other.
-
-The divide between polish and variation exists because teachers teach what they know. Classical instructors teach precision because that is what classical music demands. Fiddle instructors teach variation because that is what fiddle music rewards. But the student who wants both has to reject the false choice and take what they need from each tradition.
+But the student who wants both has to reject the false choice and take what they need from each tradition.
 
 The line between these approaches is drawn by tradition, not by necessity. If your goal requires crossing that line, cross it.
