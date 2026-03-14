@@ -42,7 +42,7 @@ The thesis is simple. You need both of these approaches to accomplish a cross-st
 
 ## In Practice
 
-What does this look like? You polish a phrase to perfection, then you vary it. You drill intonation until it is automatic, then you use that foundation to improvise with confidence. You learn a tune note for note, then you learn to play it differently every time.
+What does this look like? You polish a phrase to perfection, then you vary it. You drill intonation until it is automatic, then you use that foundation to improvise with confidence. You learn a tune note for note until variations come naturally.
 
 The classical player who wants to bring spontaneity to their performance starts by mastering the notes, then loosens the grip. The fiddler who wants to bring precision to their playing starts by owning the feel, then refines the details. Neither path works without the other.
 
