@@ -1,0 +1,34 @@
+<Component name="BlogOverview">
+  <List
+    data="{
+    $props.posts.filter(p => !p.draft).toSorted(function(a, b) {
+      return Date.parse(b.date) - Date.parse(a.date);
+    })
+  }">
+    <VStack
+       var.blogLink="/blog/{$item.slug}"
+       gap="$space-2"
+       onClick="Actions.navigate(blogLink)">
+      <H1>
+        {$item.title}
+      </H1>
+      <Text variant="em">
+        {$item.description}
+      </Text>
+      <HStack>
+        <Text variant="em" fontSize="$fontSize-xs">
+          {$item.author}
+        </Text>
+        <SpaceFiller />
+        <Text variant="em" fontSize="$fontSize-xs">
+          {$item.displayDate}
+        </Text>
+      </HStack>
+    </VStack>
+    <ContentSeparator
+      when="{$itemIndex < $props.posts.length - 1}"
+      marginTop="$space-4"
+      marginBottom="$space-8"
+    />
+  </List>
+</Component>

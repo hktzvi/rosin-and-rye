@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Rosin &amp; Rye</title>
+    <link>https://rosinandrye.com</link>
+    <description>Rosin &amp; Rye — ideas, experiments, and things worth writing about.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Mar 2026 01:14:37 GMT</lastBuildDate>
+
+    <item>
+      <title>Katy Hill</title>
+      <link>https://rosinandrye.com/blog/katy-hill</link>
+      <description>A look at Katy Hill, old-time&#39;s most-traveled breakdown tune, its origins, and who plays it well.</description>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+      <author>Reese Krome</author>
+      <guid>https://rosinandrye.com/blog/katy-hill</guid>
+    </item>
+    <item>
+      <title>Sally Goodin</title>
+      <link>https://rosinandrye.com/blog/sally-goodin</link>
+      <description>A look at Sally Goodin, the Texas showpiece that put old-time fiddling on record for the first time.</description>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+      <author>Reese Krome</author>
+      <guid>https://rosinandrye.com/blog/sally-goodin</guid>
+    </item>
+    <item>
+      <title>Cotton Patch Rag</title>
+      <link>https://rosinandrye.com/blog/cotton-patch-rag</link>
+      <description>A look at Cotton Patch Rag, Mark O&#39;Connor&#39;s ragtime-influenced fiddle tune and what makes it worth learning.</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <author>Reese Krome</author>
+      <guid>https://rosinandrye.com/blog/cotton-patch-rag</guid>
+    </item>
+    <item>
+      <title>Washington County</title>
+      <link>https://rosinandrye.com/blog/washington-county</link>
+      <description>The story behind the fiddle tune Washington County and the fiddler who made it famous.</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <author>Reese Krome</author>
+      <guid>https://rosinandrye.com/blog/washington-county</guid>
+    </item>
+    <item>
+      <title>Welcome to Rosin &amp; Rye</title>
+      <link>https://rosinandrye.com/blog/welcome</link>
+      <description>A first post to kick things off.</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <author>Rosin &amp; Rye</author>
+      <guid>https://rosinandrye.com/blog/welcome</guid>
+    </item>
+  </channel>
+</rss>

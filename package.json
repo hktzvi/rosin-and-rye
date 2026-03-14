@@ -1,0 +1,14 @@
+{
+  "name": "rosin-and-rye",
+  "private": true,
+  "workspaces": [
+    "apps/blog",
+    "apps/xmlui/xmlui",
+    "apps/xmlui/packages/xmlui-search"
+  ],
+  "scripts": {
+    "start": "npm run start --workspace=apps/blog",
+    "build": "npm run build --workspace=apps/blog",
+    "preview": "npm run preview --workspace=apps/blog"
+  }
+}
