@@ -6,29 +6,17 @@
     })
   }">
     <VStack
-       var.blogLink="/blog/{$item.slug}"
-       gap="$space-2"
-       onClick="Actions.navigate(blogLink)">
-      <H1>
-        {$item.title}
-      </H1>
-      <Text variant="em">
-        {$item.description}
-      </Text>
-      <HStack>
-        <Text variant="em" fontSize="$fontSize-xs">
-          {$item.author}
-        </Text>
-        <SpaceFiller />
-        <Text variant="em" fontSize="$fontSize-xs">
-          {$item.displayDate}
-        </Text>
-      </HStack>
+      var.blogLink="/blog/{$item.slug}"
+      gap="$space-1"
+      padding="$space-0_5 $space-1_5"
+      borderTop="1px solid $color-surface-200"
+      backgroundColor="white"
+      cursor="pointer"
+      onClick="Actions.navigate(blogLink)">
+      <Text fontSize="$fontSize-sm" color="$color-text-secondary">{$item.displayDate}</Text>
+      <Text fontWeight="600" fontSize="$fontSize-base" color="$color-primary">{$item.title}</Text>
+      <Text fontSize="$fontSize-sm">{$item.author}</Text>
+      <Text fontSize="$fontSize-sm" color="$color-text-secondary">{$item.description}</Text>
     </VStack>
-    <ContentSeparator
-      when="{$itemIndex < $props.posts.length - 1}"
-      marginTop="$space-4"
-      marginBottom="$space-8"
-    />
   </List>
 </Component>

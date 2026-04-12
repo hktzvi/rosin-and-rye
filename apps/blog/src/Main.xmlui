@@ -2,27 +2,24 @@
     layout="vertical-full-header"
 >
     <AppHeader>
-        <property name="logoTemplate">
-            <HStack height="100%" verticalAlignment="center" gap="$space-2" onClick="Actions.navigate('/')" style="cursor: pointer">
-                <Text fontSize="$fontSize-xl" fontWeight="700">Rosin &amp; Rye</Text>
+        <VStack gap="$space-2" width="100%">
+            <HStack width="100%" verticalAlignment="center">
+                <Text fontSize="$fontSize-2xl" fontWeight="600" width="*" cursor="pointer" onClick="Actions.navigate('/')">Rosin &amp; Rye</Text>
+                <HStack gap="$space-1" verticalAlignment="center">
+                    <Icon name="user" tooltip="Sign In" width="20px" height="20px" color="$color-surface-500" />
+                    <Icon name="cog" tooltip="Settings" width="20px" height="20px" color="$color-surface-500" />
+                    <Stack transform="scale(0.5)" marginRight="-18px" marginLeft="-12px" height="20px" verticalAlignment="center">
+                        <ToneSwitch />
+                    </Stack>
+                </HStack>
             </HStack>
-        </property>
-        <Theme>
-            <HStack when="{mediaSize.sizeIndex > 2}" gap="0">
-                <NavLink
-                    noIndicator
-                    label="About"
-                    to="/about"
-                />
+            <HStack when="{mediaSize.sizeIndex > 1}" gap="$space-2" width="100%" verticalAlignment="center">
+                <Search width="*" data="{appGlobals.plainTextContent}" />
+                <Select placeholder="All categories" width="*">
+                    <Option value="" label="All categories" />
+                </Select>
             </HStack>
-        </Theme>
-        <property name="profileMenuTemplate">
-            <Search
-                collapsible="true"
-                when="{mediaSize.sizeIndex > 1}"
-                data="{appGlobals.plainTextContent}"
-            />
-        </property>
+        </VStack>
     </AppHeader>
     <NavPanel when="{mediaSize.sizeIndex <= 2}">
         <Stack
@@ -31,9 +28,6 @@
         >
             <Search data="{appGlobals.plainTextContent}" />
         </Stack>
-        <Fragment>
-            <NavLink noIndicator label="About" to="/about" />
-        </Fragment>
     </NavPanel>
 
     <Pages fallbackPath="/404">
@@ -46,32 +40,10 @@
         <Page url="/blog/:slug">
             <BlogPage post="{appGlobals.posts.find(p => p.slug === $routeParams.slug)}" />
         </Page>
-        <Page url="/about">
-            <VStack maxWidth="720px" margin="0 auto" paddingVertical="$space-8" paddingHorizontal="$space-4" gap="$space-6">
-                <Text fontSize="$fontSize-3xl" fontWeight="700">About Rosin &amp; Rye</Text>
-                <Text fontSize="$fontSize-lg" lineHeight="1.7">
-                    Rosin &amp; Rye exists to shine a light on fiddle tunes that deserve far more attention than they get. There are thousands of beautiful, intricate, and deeply satisfying tunes living at the edges of the tradition, tunes that rarely make it onto setlists, rarely get passed around at sessions, but absolutely should.
-                </Text>
-                <Text fontSize="$fontSize-lg" lineHeight="1.7">
-                    This is a ledger. A curated record of great versions of underplayed tunes, an ecosystem for learning, sharing, and connecting around the music. Each featured tune is chosen because someone played it exceptionally well and it deserves to be heard.
-                </Text>
-                <Text fontSize="$fontSize-xl" fontWeight="600" marginTop="$space-2">Submit a Tune</Text>
-                <Text fontSize="$fontSize-lg" lineHeight="1.7">
-                    Know a tune that belongs here? Send an email to submit.rosinrye@gmail.com with a link to hear the tune, your name, and any details you'd like to share. That's it. We'll reach out if we're going to feature it.
-                </Text>
-                <Text fontSize="$fontSize-base" color="$color-surface-500" marginTop="$space-2">
-                    Headquartered in Asheville, NC. Staffed by fiddlers.
-                </Text>
-            </VStack>
-        </Page>
     </Pages>
     <Footer>
         <Text fontWeight="400">
             Rosin &amp; Rye
         </Text>
-        <SpaceFiller />
-        <HStack verticalAlignment="center">
-            <ToneSwitch />
-        </HStack>
     </Footer>
 </App>

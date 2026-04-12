@@ -7,6 +7,7 @@
     "preview": "xmlui preview",
     "gen:rss": "node scripts/generate-rss.js",
     "build": "npm run gen:rss && xmlui build --buildMode=INLINE_ALL --flatDist && xmlui zip-dist --source=dist --target=ui.zip",
+    "test:screenshot": "npx playwright test",
     "build-optimized": "npx xmlui-optimizer",
     "preview-optimized": "npx serve@latest ./xmlui-optimized-output"
   },
@@ -18,6 +19,7 @@
     "xmlui-search": "*"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "@emotion/is-prop-valid": "^1.3.1",
     "remark-parse": "11.0.0",
     "remark-stringify": "11.0.0",

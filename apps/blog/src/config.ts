@@ -182,9 +182,36 @@ function highlight(
 
 const App: StandaloneAppDescription = {
   name: "Rosin & Rye",
-  defaultTheme: "xmlui-blog",
+  defaultTheme: "rosin-and-rye",
+  themes: [
+    {
+      id: "rosin-and-rye",
+      name: "Rosin & Rye",
+      extends: "xmlui-blog",
+
+      tones: {
+        light: {
+          themeVars: {
+            "color-surface": "hsl(42, 10%, 97%)",
+            "backgroundColor": "hsl(42, 10%, 97%)",
+            "backgroundColor-content-App": "hsl(42, 10%, 97%)",
+            "backgroundColor-AppHeader": "hsl(42, 10%, 97%)",
+            "maxWidth-content-App": "600px",
+            "color-surface-200": "hsl(0, 0%, 82%)",
+            "color-surface-300": "hsl(0, 0%, 74%)",
+            "color-surface-400": "hsl(0, 0%, 65%)",
+            "color-surface-500": "hsl(0, 0%, 52%)",
+            "color-surface-600": "hsl(0, 0%, 45%)",
+            "color-secondary": "hsl(48, 6%, 73%)",
+            "height-AppHeader": "auto",
+            "paddingVertical-AppHeader": "$space-4",
+            "maxWidth-AppHeader": "$maxWidth-content-App",
+          },
+        },
+      },
+    },
+  ],
   resources: {
-    logo: "/resources/icons/logo.svg",
     favicon: "/resources/favicon.ico",
     "icon.rss": "/resources/icons/rss.svg",
   },
