@@ -30,6 +30,8 @@ ui.zip
 public/feed.rss
 public/blog-search-data.json
 apps/blog/screenshots/
+apps/blog/test-results/
+apps/blog/public/blog/.obsidian/
 
 # XMLUI engine
 /apps/xmlui/
